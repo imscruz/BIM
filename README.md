@@ -32,6 +32,8 @@ Install my-project with Java-Script And Some Modeuls Requrements. For Properliy 
   Python3 install linux my-project
   C++ install linux my-project
   Golang install linux
+  git clone https://github.com/Alif145/SAITAMA-V2
+  cd SAITAMA-V2
   chmod +X run.py 
   Python3 run.py
 
