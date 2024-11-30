@@ -23,48 +23,54 @@ def layer7():
     clear()
     si()
     print(Colorate.Horizontal(Colors.red_to_white, ''' 
-    
-░█▀▀▀█ ─█▀▀█ ▀█▀ ▀▀█▀▀ ─█▀▀█ ░█▀▄▀█ ─█▀▀█ 
-─▀▀▀▄▄ ░█▄▄█ ░█─ ─░█── ░█▄▄█ ░█░█░█ ░█▄▄█ 
-░█▄▄▄█ ░█─░█ ▄█▄ ─░█── ░█─░█ ░█──░█ ░█─░█ version.2.0.1
+██████╗ ██╗███╗   ███╗
+██╔══██╝██║████╗ ████║
+███████ ██║██╔████╔██║
+██║  ██ ██║██║╚██╔╝██║
+██████╗ ██║██║ ╚═╝ ██║   
+ ╚═════╝╚═╝╚═╝     ╚═╝  
+version.2.0.1
 
-            Make By {TEAM BD CYBER NINJA} 
+            Make By TEAM BD AND MODDED BY imscruz 
         
-                LIST LAYER7 METHODS
+                Layer7 Listesi
           
             
-!TLS - POWERFUL TLS METHOD BYPASS AMAZON GOOGLE CF ISP
-!BYPASS - BYPASS ANY ISP WITH HIGH RPS SEND
-!HTTPS - SEND ATTACK WITH HTTPS-FLOOD
-!RAPID - SEND HIGH RPS FOR HTTP DDOS 
-!BLACK - FUCKING WEBSITE UNTIL DOWN
-!CRASH - LOW QUALITY WEBSITE ATTACK
+!TLS - GUCLU TLS YONTEMIYLE AMAZON, GOOGLE, CF VE ISS'LERI ATLAT  
+!BYPASS - YUKSEK RPS ILE HERHANGI BIR ISS'I ATLAT  
+!HTTPS - HTTPS-FLOOD ILE SALDIRI GONDER  
+!RAPID - HTTP DDOS ICIN YUKSEK RPS GONDER  
+!BLACK - SITEYI COKENE KADAR HEDEFLE  
+!CRASH - DUSUK KALITELI SITEYE SALDIR  
 
 
-HOW TO USE
-TLS https://example.com 120         TLS URL TIME
+Nasıl KULLANILIR
+TLS https://example.com 120  TLS URL ZAMAN
 '''))
 
 def menu():
     clear()
     print(Colorate.Diagonal(Colors.red_to_white
-   , "WELCOME TO SAITAMA V2l | USER: ROOT| PLAN :: VIP | Proxy: " + bots_str + " | HAPPY TO USE"))
+   , "WELCOME TO BIM PANEL | USER: imscruz| PLAN :: VIP | Proxy: " + bots_str + " | IYICE KULLANIN!"))
     print("")
     banner = '''
-        ⠀⠀⠀⠀⠀⠀
-░█▀▀▀█ ─█▀▀█ ▀█▀ ▀▀█▀▀ ─█▀▀█ ░█▀▄▀█ ─█▀▀█ 
-─▀▀▀▄▄ ░█▄▄█ ░█─ ─░█── ░█▄▄█ ░█░█░█ ░█▄▄█ 
-░█▄▄▄█ ░█─░█ ▄█▄ ─░█── ░█─░█ ░█──░█ ░█─░█ version.2.0.1
+██████╗ ██╗███╗   ███╗
+██╔══██╝██║████╗ ████║
+███████ ██║██╔████╔██║
+██║  ██ ██║██║╚██╔╝██║
+██████╗ ██║██║ ╚═╝ ██║   
+ ╚═════╝╚═╝╚═╝     ╚═╝ 
+version.2.0.1
 
-Make By {TEAM BD CYBER NINJA} 
+Make By TEAM BD AND MODDED BY imscruz 
 
-Type Layer7 To See Layer7 Methods⠀⠀⠀⠀⠀  
+Yontemler icin Layer7 yada Layer4 yazınız.⠀⠀⠀⠀⠀  
 '''
     print(Colorate.Diagonal(Colors.red_to_white, banner))
 def main():
     menu()
     while(True):
-        cnc = input(Colorate.Diagonal(Colors.red_to_white, "nigga@saitamaV2#~"))
+        cnc = input(Colorate.Diagonal(Colors.red_to_white, "imscruz@BIM#~"))
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
         elif cnc == "clear" or cnc == "CLEAR" or cnc == "CLS" or cnc == "cls":
@@ -135,9 +141,9 @@ def main():
 
         elif "help" in cnc:
             print(Colorate.Horizontal(Colors.red_to_white, ''' 
-LAYER7 - SEE ALL LAYER7 METHOD
-HELP - FOR HELP
-CLEAR - CLEAR TERMINAL
+LAYER7 - TUM LAYER7 METHODLARINI GORMENIZI SAGLAR
+HELP - YARDIM ICIN
+CLEAR - TERMINALI TEMIZLER
 '''))
         else:
             try:
@@ -149,16 +155,16 @@ CLEAR - CLEAR TERMINAL
 
 def login():
     clear()
-    user = "user"
-    passwd = "1"
-    username = input("</> Username: ")
-    password = getpass.getpass(prompt='</> Password: ')
+    user = "imscruz"
+    passwd = "sexsex"
+    username = input("</> Kullanıcı Adı: ")
+    password = getpass.getpass(prompt='</> Sifre: ')
     if username != user or password != passwd:
         print("")
-        print("Password/Username xd??")        
+        print("Bilmiyomusun? xd??")        
         sys.exit(1)
     elif username == user and password == passwd:
-        print("WELCOME TO SAITAMA V2")
+        print("BIM e hosgeldiniz!")
         time.sleep(0.3)
         main()
 login()
